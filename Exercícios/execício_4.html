@@ -1,0 +1,36 @@
+<html><head><title>Exercício 04</title>
+</head>
+
+
+<script language="Javascript">
+
+    var valorinicial = +window.prompt ("Digite um número referente ao valor inicial.");
+	var valorfinal = +window.prompt ("Digite um número referente ao valor final.");
+	var resultado 
+
+    if (valorinicial %2 !=0)
+    {
+        valorinicial++;
+    }
+    else
+    {
+    }
+        if (valorinicial < valorfinal)
+        {
+            for (impar = valorinicial; impar <= valorfinal; impar=impar+=2);
+            {
+                resultado += impar;
+            }
+        }
+        else
+        {
+            for (par = valorinicial; impar >= valorfinal; impar=impar+=2);
+                {
+                    resultado += impar;
+                }
+        }
+        alert("O resultado referente a soma dos números ímpares é de : " +resultado+ "");
+
+</script>
+</body>
+</html>
